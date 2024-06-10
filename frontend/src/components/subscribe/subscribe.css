@@ -1,0 +1,53 @@
+/* Subscribe.css */
+
+.subscribe-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .subscribe-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .subscribe-container p {
+    text-align: center;
+    font-weight: bold;
+    color: #4caf50; /* Green color for success message */
+  }
+  
+  .subscribe-container form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-container input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .subscribe-container button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Green color for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .subscribe-container button:hover {
+    background-color: #0056b3; /* Darker green on hover */
+  }
+  
+  .subscribe-container input[type="email"]:focus {
+    outline: none;
+    border-color: #4caf50; /* Green color on focus */
+  }
+  

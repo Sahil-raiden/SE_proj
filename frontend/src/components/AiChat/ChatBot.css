@@ -1,0 +1,115 @@
+/* ChatBot.css */
+.app {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f9;
+  height: 100vh;
+}
+
+.search-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-section h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.search-section button {
+  background-color: #3d3f40;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-section button:hover {
+  background-color: #545657;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.input-container input {
+  padding: 10px;
+  flex: 1;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.input-container button {
+  background-color: #3d3f40;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+  background-color: #545657;
+}
+
+.search-result {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-result .chat-message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.search-result .chat-message.user {
+  justify-content: flex-end;
+}
+
+.search-result .chat-message.model {
+  justify-content: flex-start;
+}
+
+.search-result .chat-message p {
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.search-result .chat-message.user p {
+  background-color: #8e9297;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.search-result .chat-message.model p {
+  background-color: #e9ecef;
+  color: #333;
+  border-bottom-left-radius: 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}

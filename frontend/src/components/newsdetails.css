@@ -1,0 +1,44 @@
+.news.details {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.news.details h4 {
+    font-size: 1.5rem;
+    color: #343a40; /* Dark text color */
+    margin-bottom: 10px;
+}
+
+.news.details p {
+    font-size: 1rem;
+    color: #6c757d; /* Medium dark text color */
+    margin-bottom: 5px;
+}
+
+.news.details strong {
+    font-weight: bold;
+}
+
+/* Add a subtle shadow for depth */
+.news.details {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.news.details:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Optional: Add a background color to the title for emphasis */
+.news.details h4 {
+    background-color: #4e4f50; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 8px; /* Add padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px;
+    text-align: center; /* Increase margin for separation */
+}
